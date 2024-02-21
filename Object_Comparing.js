@@ -17,7 +17,7 @@ function compareObjects(obj1, obj2) {
 console.log(
   compareObjects(
     { name: "Sarath", place: "Madurai", age: 31 },
-    { place: "Madurai", name: "Sarath" }
+    { place: "Madurai",age : 12,  name: "Sarath" }
   )
     ? "Same"
     : "Different"
